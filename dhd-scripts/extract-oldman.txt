@@ -1,0 +1,39 @@
+go 1519 730
+sleep 2000
+click 1
+go 1183 646
+sleep 2000
+click 1
+go 1175 646
+sleep 3000
+click 1
+go 1183 646
+sleep 2000
+click 1
+go 1175 646
+sleep 3000
+click 1
+go 1183 646
+sleep 2000
+click 1
+go 1175 646
+sleep 3000
+click 1
+go 1183 646
+sleep 2000
+click 1
+go 1175 646
+sleep 3000
+click 1
+go 1183 646
+sleep 2000
+click 1
+go 1175 646
+sleep 3000
+click 1
+go 1183 646
+sleep 2000
+click 1
+go 1175 646
+sleep 3000
+click 1

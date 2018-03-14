@@ -1,0 +1,7 @@
+go 851 581
+sleep 3000
+click 1
+go 862 652
+sleep 2000
+click 1
+sleep 600
