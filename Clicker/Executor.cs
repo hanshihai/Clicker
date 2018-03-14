@@ -40,8 +40,13 @@ namespace Clicker
         public bool add(String line) {
             if (line != null) {
                 String[] commander = line.Split(spliter);
-                if (commander != null && metadata.Contains(commander[0])) {
+                if (commander != null && metadata.Contains(commander[0]))
+                {
                     commanders.Add(commander);
+                    return true;
+                }
+                else {
+                    commanders.Add(line);
                     return true;
                 }
             }

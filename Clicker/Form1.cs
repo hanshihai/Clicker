@@ -92,40 +92,63 @@ namespace Clicker
             int maxTime = 50000;
             int run = 0;
             DateTime start = DateTime.Now;
-            while (run < maxTime)
+            try
             {
-                DateTime current = DateTime.Now;
-                if (current.CompareTo(start.AddMinutes(duration)) <= 0)
+                while (run < maxTime)
                 {
-                    int size = executor.getSize();
-                    for (int i = 0; i < size; i++) {
-                        String[] line = executor.get(i);
-                        if (line[0] != null) {
-                            if (executor.Go().Equals(line[0]))
+                    DateTime current = DateTime.Now;
+                    if (current.CompareTo(start.AddMinutes(duration)) <= 0)
+                    {
+                        int size = executor.getSize();
+                        for (int i = 0; i < size; i++)
+                        {
+                            String[] line = executor.get(i);
+                            if (line[0] != null)
                             {
-                                go(line[1], line[2]);
-                            }
-                            else if (executor.Click().Equals(line[0]))
-                            {
-                                click();
-                            }
-                            else if (executor.Sleep().Equals(line[0]))
-                            {
-                                sleep(line[1]);
-                            }
-                            else {
-                                System.Threading.Thread.Sleep(timer);
+                                if (executor.Go().Equals(line[0]))
+                                {
+                                    if (line.Length != 3)
+                                    {
+                                        int lineNumber = i + 1;
+                                        throw new Exception("script error without enough parametersin line: " + lineNumber);
+                                    }
+                                    else
+                                    {
+                                        go(line[1], line[2]);
+                                    }
+
+                                }
+                                else if (executor.Click().Equals(line[0]))
+                                {
+                                    click();
+                                }
+                                else if (executor.Sleep().Equals(line[0]))
+                                {
+                                    if (line.Length != 2)
+                                    {
+                                        int lineNumber = i + 1;
+                                        throw new Exception("script error without enough parametersin line: " + lineNumber);
+                                    }
+                                    else {
+                                        sleep(line[1]);
+                                    }
+
+                                }
                             }
                         }
                     }
+                    else
+                    {
+                        break;
+                    }
+                    System.Threading.Thread.Sleep(timer);
+                    run++;
                 }
-                else
-                {
-                    break;
-                }
-                System.Threading.Thread.Sleep(timer);
-                run++;
             }
+            catch (Exception ex) {
+                MessageBox.Show("Error reports out from script." + ex.Message);
+            }
+
             _backendThread = null;
         }
 
