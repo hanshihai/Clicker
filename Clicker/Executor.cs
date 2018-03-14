@@ -46,7 +46,9 @@ namespace Clicker
                     return true;
                 }
                 else {
-                    commanders.Add(line);
+                    String[] comment = new string[1];
+                    comment[0] = line;
+                    commanders.Add(comment);
                     return true;
                 }
             }
