@@ -3,40 +3,12 @@
 //sleep 3000
 //click 1
 //create cloth and collect
+loop 5
 go 1183 646
 sleep 5000
 click 1
 go 1175 710
 sleep 9000
 click 1
-go 1183 646
-sleep 5000
-click 1
-go 1175 710
-sleep 9000
-click 1
-go 1183 646
-sleep 5000
-click 1
-go 1175 710
-sleep 9000
-click 1
-go 1183 646
-sleep 5000
-click 1
-go 1175 710
-sleep 9000
-click 1
-go 1183 646
-sleep 5000
-click 1
-go 1175 710
-sleep 9000
-click 1
-go 1183 646
-sleep 5000
-click 1
-go 1175 710
-sleep 9000
-click 1
+end-loop
 //end cloth
