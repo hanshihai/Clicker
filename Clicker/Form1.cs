@@ -17,7 +17,9 @@ namespace Clicker
 
         int X = 0;
         int Y = 0;
-        int duration = 5;
+        int duration = 60;
+        int maxTime = 10000;
+
         int timer = 1000;
 
         [System.Runtime.InteropServices.DllImport("User32")]
@@ -89,7 +91,6 @@ namespace Clicker
 
         void threadExecute()
         {
-            int maxTime = 50000;
             int run = 0;
             DateTime start = DateTime.Now;
             try
@@ -208,6 +209,18 @@ namespace Clicker
                 result.Append(builder.ToString() + System.Environment.NewLine);
             }
             this.textBox1.Text = result.ToString();
+        }
+
+        private void durationInput_TextChanged(object sender, EventArgs e)
+        {
+            this.duration = Int32.Parse(this.durationInput.Text);
+            this.textBox1.Text = "The duration sets to " + this.duration;
+        }
+
+        private void timeInput_TextChanged(object sender, EventArgs e)
+        {
+            this.maxTime = Int32.Parse(this.timeInput.Text);
+            this.textBox1.Text = "The total execution count sets to " + this.maxTime;
         }
     }
 }

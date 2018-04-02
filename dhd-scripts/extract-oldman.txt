@@ -1,9 +1,9 @@
 //open extract cloth
-//go 1519 730
-//sleep 3000
-//click 1
+go 1519 730
+sleep 3000
+click 1
 //create cloth and collect
-loop 5
+loop 10
 go 1183 646
 sleep 5000
 click 1
@@ -12,3 +12,24 @@ sleep 9000
 click 1
 end-loop
 //end cloth
+//open extract cloth
+go 1519 730
+sleep 3000
+click 1
+loop 8
+//select dump
+go 808 557
+sleep 2000
+click 1
+go 863 557
+sleep 2000
+click 1
+go 925 557
+sleep 2000
+click 1
+//confirm
+go 1040 470
+sleep 3000
+click 1
+end-loop
+sleep 5000
