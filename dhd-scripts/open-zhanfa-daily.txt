@@ -1,7 +1,7 @@
-go 623 586
+go 583 610
 sleep 2000
 click 1
-go 864 658
+go 824 678
 sleep 4000
 click 1
 sleep 2000

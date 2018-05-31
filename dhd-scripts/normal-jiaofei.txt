@@ -1,10 +1,10 @@
-go 1171 582
+go 1139 606
 sleep 2000
 click 1
-go 968 492
+go 941 514
 sleep 2000
 click 1
-go 866 580
+go 833 788
 sleep 2000
 click 1
 go 866 768

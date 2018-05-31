@@ -16,20 +16,20 @@ end-loop
 go 1519 730
 sleep 3000
 click 1
-loop 8
+loop 14
 //select dump
 go 808 557
-sleep 2000
+sleep 1200
 click 1
 go 863 557
-sleep 2000
+sleep 1200
 click 1
 go 925 557
-sleep 2000
+sleep 1200
 click 1
 //confirm
 go 1040 470
-sleep 3000
+sleep 2500
 click 1
 end-loop
 sleep 5000
