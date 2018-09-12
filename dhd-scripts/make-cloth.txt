@@ -1,0 +1,7 @@
+go 1144 672
+sleep 1000
+click 1
+go 1155 736
+sleep 4000
+click 1
+sleep 1000
