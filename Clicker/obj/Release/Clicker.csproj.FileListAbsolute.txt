@@ -1,0 +1,14 @@
+C:\repository\github\Clicker\Clicker\bin\Release\Clicker.exe.config
+C:\repository\github\Clicker\Clicker\bin\Release\Clicker.exe.manifest
+C:\repository\github\Clicker\Clicker\bin\Release\Clicker.application
+C:\repository\github\Clicker\Clicker\bin\Release\Clicker.exe
+C:\repository\github\Clicker\Clicker\bin\Release\Clicker.pdb
+C:\repository\github\Clicker\Clicker\obj\Release\Clicker.csprojAssemblyReference.cache
+C:\repository\github\Clicker\Clicker\obj\Release\Clicker.Main.resources
+C:\repository\github\Clicker\Clicker\obj\Release\Clicker.Properties.Resources.resources
+C:\repository\github\Clicker\Clicker\obj\Release\Clicker.csproj.GenerateResource.cache
+C:\repository\github\Clicker\Clicker\obj\Release\Clicker.csproj.CoreCompileInputs.cache
+C:\repository\github\Clicker\Clicker\obj\Release\Clicker.exe.manifest
+C:\repository\github\Clicker\Clicker\obj\Release\Clicker.application
+C:\repository\github\Clicker\Clicker\obj\Release\Clicker.exe
+C:\repository\github\Clicker\Clicker\obj\Release\Clicker.pdb
