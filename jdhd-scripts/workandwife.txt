@@ -1,0 +1,39 @@
+//working
+sleep 1000
+go 873 515
+sleep 3000
+click 1
+//
+sleep 1000
+go 1041 762
+sleep 3000
+click 1
+//
+sleep 1000
+go 1068 127
+sleep 3000
+click 1
+sleep 3000
+//
+//wife
+sleep 1000
+go 682 565
+sleep 2000
+click 1
+//
+sleep 1000
+go 849 872
+sleep 2000
+click 1
+//
+sleep 1000
+go 1074 359
+sleep 5000
+click 1
+//
+sleep 1000
+go 1066 117
+sleep 2000
+click 1
+//
+sleep 60000

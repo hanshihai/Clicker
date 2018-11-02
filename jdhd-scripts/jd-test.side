@@ -1,0 +1,264 @@
+{
+  "id": "413cfd93-1f13-4d5a-b35b-f27430bb1a49",
+  "version": "1.1",
+  "name": "jd-test",
+  "url": "https://joy.m.jd.com",
+  "tests": [{
+    "id": "fb800f24-4520-4777-b2e0-c1349baed385",
+    "name": "daily-operating",
+    "commands": [{
+      "id": "9aaf0e43-8186-40c7-ac20-0a39d614ed07",
+      "comment": "",
+      "command": "open",
+      "target": "/game/2051",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5651d1ae-7e46-4684-a855-353998580670",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x692",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "20eaadff-7823-4627-8649-f9c2c487546e",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "336669f8-0ef8-4a47-bf57-635d6c29a0fb",
+      "comment": "",
+      "command": "click",
+      "target": "css=canvas",
+      "targets": [
+        ["css=canvas", "css"],
+        ["css=canvas", "css:finder"],
+        ["xpath=//canvas", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ca5d556-fa7b-453e-8e62-5974f68d8727",
+      "comment": "",
+      "command": "click",
+      "target": "css=canvas",
+      "targets": [
+        ["css=canvas", "css"],
+        ["css=canvas", "css:finder"],
+        ["xpath=//canvas", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "93ef605c-d41f-42ec-8193-a244da94e794",
+      "comment": "",
+      "command": "click",
+      "target": "css=canvas",
+      "targets": [
+        ["css=canvas", "css"],
+        ["css=canvas", "css:finder"],
+        ["xpath=//canvas", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "258b45a5-acb9-49e5-9d54-c2338f8f6a06",
+      "comment": "",
+      "command": "click",
+      "target": "css=canvas",
+      "targets": [
+        ["css=canvas", "css"],
+        ["css=canvas", "css:finder"],
+        ["xpath=//canvas", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "473455e3-da68-4279-b976-2f517ed89025",
+      "comment": "",
+      "command": "click",
+      "target": "css=canvas",
+      "targets": [
+        ["css=canvas", "css"],
+        ["css=canvas", "css:finder"],
+        ["xpath=//canvas", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "584ff507-fe64-460e-ae07-ff82ff58d4fa",
+      "comment": "",
+      "command": "click",
+      "target": "css=canvas",
+      "targets": [
+        ["css=canvas", "css"],
+        ["css=canvas", "css:finder"],
+        ["xpath=//canvas", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "342d6850-8b48-4bc3-9407-ee145115bb84",
+      "comment": "",
+      "command": "click",
+      "target": "css=canvas",
+      "targets": [
+        ["css=canvas", "css"],
+        ["css=canvas", "css:finder"],
+        ["xpath=//canvas", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bcc55595-6682-4201-9be9-bb5a1e39d062",
+      "comment": "",
+      "command": "click",
+      "target": "css=canvas",
+      "targets": [
+        ["css=canvas", "css"],
+        ["css=canvas", "css:finder"],
+        ["xpath=//canvas", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3babe13b-6575-4f95-8177-be1b9026e21e",
+      "comment": "",
+      "command": "click",
+      "target": "css=canvas",
+      "targets": [
+        ["css=canvas", "css"],
+        ["css=canvas", "css:finder"],
+        ["xpath=//canvas", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2cddd6cb-c1f3-463b-ab5d-139345da86c3",
+      "comment": "",
+      "command": "click",
+      "target": "css=canvas",
+      "targets": [
+        ["css=canvas", "css"],
+        ["css=canvas", "css:finder"],
+        ["xpath=//canvas", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b52985f-d171-41ba-94b3-09852fc382c7",
+      "comment": "",
+      "command": "click",
+      "target": "css=canvas",
+      "targets": [
+        ["css=canvas", "css"],
+        ["css=canvas", "css:finder"],
+        ["xpath=//canvas", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e056ee68-fa77-44f2-9534-a6f28cc4d851",
+      "comment": "",
+      "command": "click",
+      "target": "css=canvas",
+      "targets": [
+        ["css=canvas", "css"],
+        ["css=canvas", "css:finder"],
+        ["xpath=//canvas", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95a27ab1-46ad-4db7-95aa-2503c1246549",
+      "comment": "",
+      "command": "click",
+      "target": "css=canvas",
+      "targets": [
+        ["css=canvas", "css"],
+        ["css=canvas", "css:finder"],
+        ["xpath=//canvas", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "27844874-e430-472c-8259-d88e7eb025ce",
+      "comment": "",
+      "command": "click",
+      "target": "css=canvas",
+      "targets": [
+        ["css=canvas", "css"],
+        ["css=canvas", "css:finder"],
+        ["xpath=//canvas", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b0261e6-972a-4569-81f9-6ba5735d7d40",
+      "comment": "",
+      "command": "click",
+      "target": "css=canvas",
+      "targets": [
+        ["css=canvas", "css"],
+        ["css=canvas", "css:finder"],
+        ["xpath=//canvas", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f37034b-80f4-4645-bfa5-5d76ab1f4e09",
+      "comment": "",
+      "command": "click",
+      "target": "css=canvas",
+      "targets": [
+        ["css=canvas", "css"],
+        ["css=canvas", "css:finder"],
+        ["xpath=//canvas", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7175d9bd-2be5-4e45-bd4d-ef84fc44e583",
+      "comment": "",
+      "command": "click",
+      "target": "css=canvas",
+      "targets": [
+        ["css=canvas", "css"],
+        ["css=canvas", "css:finder"],
+        ["xpath=//canvas", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ec25cc2-c5da-4a2d-8704-3c55b3b3830c",
+      "comment": "",
+      "command": "click",
+      "target": "css=canvas",
+      "targets": [
+        ["css=canvas", "css"],
+        ["css=canvas", "css:finder"],
+        ["xpath=//canvas", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7669214-da33-4883-bf8e-329494a8e8ff",
+      "comment": "",
+      "command": "click",
+      "target": "css=canvas",
+      "targets": [
+        ["css=canvas", "css"],
+        ["css=canvas", "css:finder"],
+        ["xpath=//canvas", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a6f3f03-593f-4304-9c3c-9b23d8e1b7fc",
+      "comment": "",
+      "command": "click",
+      "target": "css=canvas",
+      "targets": [
+        ["css=canvas", "css"],
+        ["css=canvas", "css:finder"],
+        ["xpath=//canvas", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4741518f-1937-44bb-a313-3246f4f606ee",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["fb800f24-4520-4777-b2e0-c1349baed385"]
+  }],
+  "urls": ["https://joy.m.jd.com/"],
+  "plugins": []
+}

@@ -1,0 +1,10 @@
+//find
+sleep 1000
+go 1025 874
+sleep 2000
+click 1
+sleep 3000
+go 1074 359
+sleep 2000
+click 1
+sleep 60000
