@@ -1,0 +1,17 @@
+go 976 621
+sleep 1000
+click 1
+go 844 873
+sleep 1000
+click 1
+sleep 1000
+click 1
+sleep 1000
+click 1
+sleep 1000
+click 1
+sleep 1000
+click 1
+sleep 1000
+click 1
+sleep 3000
